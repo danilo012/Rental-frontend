@@ -1,5 +1,5 @@
 // Imported Required Files
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
@@ -7,45 +7,47 @@ import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import Box from "@mui/material/Box";
 import DateRangePicker from "@mui/lab/DateRangePicker";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios';
+import axios from "axios";
 
 function Dashboard() {
   // Create Navigate to jump another Route
   let navigate = useNavigate();
 
   // Declare Function inside UseEffect
-  useEffect(()=>{
-    checkAuth()
-  })
+  useEffect(() => {
+    checkAuth();
+  });
 
   // Create Function for check authentication
-  let checkAuth = async() => {
+  let checkAuth = async () => {
     // get token from sessionStorage
-    let token = sessionStorage.getItem('token')
-    // token is present then condition will be true 
+    let token = sessionStorage.getItem("token");
+    // token is present then condition will be true
     // token is not present then condition will be false and direct jump into else part and navigate to login page
-    if(token){
+    if (token) {
       let config = {
-        headers:{
-          token:token
-        }
-      }
+        headers: {
+          token: token,
+        },
+      };
       // Post data to url
-      let res = await axios.post("https://rent-products.herokuapp.com/users/auth",{
-        Purpose:"Approve"
-      },config)
+      let res = await axios.post(
+        "https://rental-backend-ebon.vercel.app/users/auth",
+        {
+          Purpose: "Approve",
+        },
+        config
+      );
       // If statuscode is 200 then condition will be true and sessionStorage is clear and navigate to login page
-      if(res.data.statusCode !== 200 ){
-        alert("Session Ended")
-        sessionStorage.clear()
-        navigate("/login")
+      if (res.data.statusCode !== 200) {
+        alert("Session Ended");
+        sessionStorage.clear();
+        navigate("/login");
       }
+    } else {
+      navigate("/login");
     }
-    else
-    {
-      navigate('/login')
-    }
-  }
+  };
 
   const city = [
     { label: "Ahmedabad" },
@@ -474,13 +476,18 @@ function Dashboard() {
     }
   };
 
-  
   return (
     <div>
-      <div className="text-center " style={{ marginTop: "250px"}}>
+      <div className="text-center " style={{ marginTop: "250px" }}>
         <h1 className="text-dark">RENT TODAY, OWN TOMMOROW</h1>
-        <div className="container mt-5" style={{display: "grid",gridTemplateColumns:" 1fr 1fr 1fr 1fr",gridTemplateColumns: "repeat(auto-fill, 310px)",}}>
-
+        <div
+          className="container mt-5"
+          style={{
+            display: "grid",
+            gridTemplateColumns: " 1fr 1fr 1fr 1fr",
+            gridTemplateColumns: "repeat(auto-fill, 310px)",
+          }}
+        >
           {/* Mui Components To Select City */}
           <Autocomplete
             className="m-auto"
@@ -490,11 +497,7 @@ function Dashboard() {
             autoHighlight
             getOptionLabel={(option) => option.label}
             renderOption={(props, option) => (
-              <Box
-              {...props}
-              >
-                {option.label}
-              </Box>
+              <Box {...props}>{option.label}</Box>
             )}
             renderInput={(params) => (
               <TextField
@@ -503,13 +506,13 @@ function Dashboard() {
                 label="&nbsp;&nbsp;&nbsp;Select City"
                 inputProps={{
                   ...params.inputProps,
-                  autoComplete: "new-password", 
+                  autoComplete: "new-password",
                 }}
               />
             )}
-            />
+          />
 
-            {/* Mui Components to select hourly or 30day booking */}
+          {/* Mui Components to select hourly or 30day booking */}
           <Autocomplete
             disablePortal
             id="combo-box-demo"
@@ -556,7 +559,7 @@ function Dashboard() {
         {/* button for redirect to selected product page */}
         <button
           className="glow-on-hover text-light m-auto mt-5"
-          style={{border:"1px solid black",width: "200px"}}
+          style={{ border: "1px solid black", width: "200px" }}
           onClick={() => handleSubmit()}
         >
           Book Now
