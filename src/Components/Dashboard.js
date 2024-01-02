@@ -430,10 +430,10 @@ function Dashboard() {
 
   let select = [
     {
-      label: "Hourly/Daily",
+      label: "365 DAY Booking",
     },
     {
-      label: "30 Day Booking",
+      label: "coming soon",
     },
   ];
 
@@ -480,7 +480,7 @@ function Dashboard() {
   return (
     <div>
       <div className="text-center " style={{ marginTop: "250px" }}>
-        <h1 className="text-dark">RENT TODAY, OWN TOMMOROW</h1>
+        <h1 className="text-dark">RENT TODAY, EARN TOMMOROW</h1>
         <div
           className="container mt-5"
           style={{
@@ -520,7 +520,7 @@ function Dashboard() {
             options={select}
             sx={{ width: 300 }}
             renderInput={(params) => (
-              <TextField {...params} label="Hourly / Daily" />
+              <TextField {...params} label="365 DAY Booking" />
             )}
           />
 
