@@ -122,13 +122,12 @@ function Login() {
         </div>
         <div className="text-center">
           <h5 style={{ color: "lightgreen" }}>Use your Credentials</h5>
-          <span style={{ color: "yellow" }}>Be our Rental partner and earn passive income</span><div className="text-white text-center mt-3 ">   
-          </p>
-        </div>
+          <span style={{ color: "yellow" }}>Be our Rental partner and earn passive income</span>            
         </div>
       </form>
     </div>
   );
 }
+
 
 export default Login;
