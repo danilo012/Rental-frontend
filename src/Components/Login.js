@@ -14,7 +14,7 @@ function Login() {
   let handleSubmit = async (values) => {
     // use axios to post the data
     let res = await axios.post(
-      "https://rental-backend-ebon.vercel.app/users/login",
+      "https://backuser.onrender.com/users/login",
       values
     );
 
