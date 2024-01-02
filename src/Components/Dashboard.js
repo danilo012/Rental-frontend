@@ -50,13 +50,14 @@ function Dashboard() {
   };
 
   const city = [
-    { label: "Ahmedabad" },
-    { label: "Surat" },
-    { label: "Vadodra" },
-    { label: "Rajkot" },
-    { label: "Bhavnagar" },
-    { label: "Jamnagar" },
-    { label: "Junagadh" },
+    { label: "Philippines" },
+    { label: "Asia" },
+    { label: "Africa" },
+    { label: "North America" },
+    { label: "South America" },
+    { label: "Antartica" },
+    { label: "Europe" },
+    { label: "Australia" },
     { label: "Gandhinagar" },
     { label: "Gandhidam" },
     { label: "Anand" },
