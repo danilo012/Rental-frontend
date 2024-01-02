@@ -492,7 +492,7 @@ function Dashboard() {
           <Autocomplete
             className="m-auto"
             id="country-select-demo"
-            sx={{ width: 400 }}
+            sx={{ width: 200 }}
             options={city}
             autoHighlight
             getOptionLabel={(option) => option.label}
@@ -517,7 +517,7 @@ function Dashboard() {
             disablePortal
             id="combo-box-demo"
             options={select}
-            sx={{ width: 400 }}
+            sx={{ width: 200 }}
             renderInput={(params) => (
               <TextField {...params} label="Hourly / Daily" />
             )}
@@ -551,7 +551,7 @@ function Dashboard() {
             options={products}
             onChange={handleChange}
             // filterSelectedOptions
-            sx={{ width: 400 }}
+            sx={{ width: 200 }}
             renderInput={(params) => <TextField {...params} label="Products" />}
           />
         </div>
