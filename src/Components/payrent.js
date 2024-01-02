@@ -1,7 +1,9 @@
-<!doctype html>
-<html>
- <head>
-   <meta name="viewport" content="width=device-width">  
+import React from 'react';
+import GooglePayButton from '@google-pay/button-react';
+
+function App() {
+  return (
+    <div className="App">  
  <style type="text/css" id="dcoder_stylesheet">body {
   margin:0;
   background-color:#191919;
@@ -44,10 +46,12 @@ a {
   to {
     background-position:20vw;
   }
-}</style></head> 
- <body> 
+}</style>
   <div>
     <a href="https://echozoneph.online" class="rainbow-button" alt="PAY A RENT HERE"></a>
   </div> 
- 
-</body></html>
+    
+  );
+}
+
+export default App;
