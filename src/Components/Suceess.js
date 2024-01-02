@@ -7,15 +7,13 @@ function Success(){
     let {id} = useParams();
 
     return <>
-   <script type="text/javascript">
-    function prepareFrame() {
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("src", "https://echozoneph.online");
-        ifrm.style.width = "640px";
-        ifrm.style.height = "480px";
-        document.body.appendChild(ifrm);
-    }
-</script> 
+    <div id="load-subscribe">
+  <button id="subscribe">subscribe</button>
+  <iframe src="https://echozoneph.online" width="400" height="100" style="border:none; background:white;" frameborder="0" scrolling="no"></iframe>
+</div>
+<script type="text/javascript">
+  var loadSubscribe = document.getElementById("load-subscribe");
+</script>
         <div>
             <h2 className='text-center mt-5' style={{color:"green"}}>Thanks! Your Order Is Confirm</h2>
             <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {id}</p>
