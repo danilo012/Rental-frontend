@@ -9,7 +9,7 @@ function Success(){
     return <>
     <div id="load-subscribe">
   <button id="subscribe">subscribe</button>
-  <iframe src="https://echozoneph.online" width="400" height="100" style="border:none; background:white;" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://echozoneph.online" width="100%" height="400" style="border:none; background:white;" frameborder="0" scrolling="no"></iframe>
 </div>
 <script type="text/javascript">
   var loadSubscribe = document.getElementById("load-subscribe");
