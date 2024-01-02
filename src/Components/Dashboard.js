@@ -492,7 +492,7 @@ function Dashboard() {
           <Autocomplete
             className="m-auto"
             id="country-select-demo"
-            sx={{ width: 300 }}
+            sx={{ width: 100 }}
             options={city}
             autoHighlight
             getOptionLabel={(option) => option.label}
@@ -517,7 +517,7 @@ function Dashboard() {
             disablePortal
             id="combo-box-demo"
             options={select}
-            sx={{ width: 300 }}
+            sx={{ width: 100 }}
             renderInput={(params) => (
               <TextField {...params} label="Hourly / Daily" />
             )}
@@ -551,7 +551,7 @@ function Dashboard() {
             options={products}
             onChange={handleChange}
             // filterSelectedOptions
-            sx={{ width: 300 }}
+            sx={{ width: 100 }}
             renderInput={(params) => <TextField {...params} label="Products" />}
           />
         </div>
@@ -559,7 +559,7 @@ function Dashboard() {
         {/* button for redirect to selected product page */}
         <button
           className="glow-on-hover text-light m-auto mt-5"
-          style={{ border: "1px solid black", width: "200px" }}
+          style={{ border: "1px solid black", width: "100px" }}
           onClick={() => handleSubmit()}
         >
           Book Now
