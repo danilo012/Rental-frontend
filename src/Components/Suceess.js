@@ -2,7 +2,7 @@
 import React,{useContext}  from 'react';
 import {Link,useParams} from 'react-router-dom'
 import {rentContext} from '../App';
-function payrent(){
+function success(){
     // useParams for get id from url
     let {id} = useParams();
 
@@ -19,4 +19,4 @@ function payrent(){
     </>
 }
 
-export default payrent;
+export default success;
