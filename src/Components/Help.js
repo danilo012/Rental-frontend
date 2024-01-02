@@ -3,9 +3,8 @@ import React from 'react';
 function Help(){
 
     return <>
-        <div class="container">
-    CLICK HERE TO PROCEED RENTAL PAYMENT
-    <a href="https://resonant-crepe-91c024.netlify.app/">
+        <div class="rainbow-button">
+    <a href="https://resonant-crepe-91c024.netlify.app/"> alt="PAY A RENT HERE"></a>
       <span class="link"></span>
     </a>
   </div>
