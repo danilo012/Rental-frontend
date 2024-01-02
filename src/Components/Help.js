@@ -3,7 +3,14 @@ import React from 'react';
 function Help(){
 
     return <>
-           <style>
+            <body>
+    <div class="container">
+      W3Docs
+      <a href="https://www.w3docs.com/">
+        <span class="link"></span>
+      </a>
+    </div>
+        <style>
       .container {
         font-size: 5em;
         background-color: #a8a8a8;
@@ -26,13 +33,6 @@ function Help(){
         z-index: 1;
       }
     </style>
-        <body>
-    <div class="container">
-      W3Docs
-      <a href="https://www.w3docs.com/">
-        <span class="link"></span>
-      </a>
-    </div>
   </body>
     </>
 }
