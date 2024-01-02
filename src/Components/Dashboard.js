@@ -32,7 +32,7 @@ function Dashboard() {
       };
       // Post data to url
       let res = await axios.post(
-        "https://rental-backend-ebon.vercel.app/users/auth",
+        "https://backuser.onrender.com/users/loginusers/auth",
         {
           Purpose: "Approve",
         },
