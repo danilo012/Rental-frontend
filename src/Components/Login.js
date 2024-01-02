@@ -51,7 +51,7 @@ function Login() {
     <div
       className="login m-auto"
       style={{
-        width: "2900px",
+        width: "290px",
         height: "500px",
         color: "white",
         boxShadow: "0px 0px 20px white",
