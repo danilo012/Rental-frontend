@@ -13,7 +13,7 @@ function SignUp() {
   let handleSubmit = async (values) => {
     // use axios for post the data in database
     let res = await axios.post(
-      "https://rental-backend-ebon.vercel.app/users/signup",
+      "https://backuser.onrender.com/users/signup",
       values
     );
     // If statuscode is 200 then condition will be true and redirect to the login page
