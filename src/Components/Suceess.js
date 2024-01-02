@@ -7,33 +7,15 @@ function Success(){
     let {id} = useParams();
 
     return <>
-        <div id="load-subscribe">
-		<button id="subscribe">PAY RENT</button>
-	</div>
-
-	<script type="text/javascript">
-		var loadSubscribe = document.getElementById("load-subscribe");
-
-		// create iframe
-		var substack = document.createElement("iframe");
-		// Add attributes
-		substack.src = "https://echozoneph.online";
-		// Set size and hide iframe border
-		substack.width = "300";
-		substack.height = "150";
-		substack.frameBorder ="0";
-		substack.scrolling = "0";
-		substack.style.border= "none";
-		substack.style.background = "white";
-		
-		// event to trigger iframe loading
-		document.getElementById("subscribe").addEventListener("click", function(){
-			// Add Iframe to webpage
-			loadSubscribe.appendChild(substack);
-			// Hide button
-			this.style.display = "none";
-		})
-	</script>
+   <script type="text/javascript">
+    function prepareFrame() {
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "https://echozoneph.online");
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        document.body.appendChild(ifrm);
+    }
+</script> 
         <div>
             <h2 className='text-center mt-5' style={{color:"green"}}>Thanks! Your Order Is Confirm</h2>
             <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {id}</p>
