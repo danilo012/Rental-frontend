@@ -16,7 +16,7 @@ function PlaceOrder() {
   let handleSubmit = async (values) => {
     // use axios to post the data into database
     let res = await axios.post(
-      "https://rental-backend-ebon.vercel.app/users/orderdetails",
+      "https://backuser.onrender.com/users/orderdetails",
       values
     );
     // if res is present then condition will be true
