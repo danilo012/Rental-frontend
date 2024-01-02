@@ -106,7 +106,7 @@ function Login() {
           <button
             className="btn d-flex justify-content-center text-light"
             type="submit"
-            style={{ width: "100%", backgroundColor: "grey" }}
+            style={{ width: "50%", backgroundColor: "grey" }}
           >
             Login
           </button>
