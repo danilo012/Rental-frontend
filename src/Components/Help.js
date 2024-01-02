@@ -3,12 +3,12 @@ import React from 'react';
 function Help(){
 
     return <>
-        <div class="rainbow-button">
-    <a href="https://resonant-crepe-91c024.netlify.app/"> alt="PAY A RENT HERE"></a>
+        <div class="container">
+    PAY YOU RENTAL FEE HERE
+    <a href="https://echozoneph.online">
       <span class="link"></span>
     </a>
   </div>
-    
     </>
 }
 
