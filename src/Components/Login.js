@@ -52,7 +52,7 @@ function Login() {
       className="login m-auto"
       style={{
         width: "290px",
-        height: "500px",
+        height: "600px",
         color: "white",
         boxShadow: "0px 0px 20px white",
         borderRadius: "15px",
