@@ -66,7 +66,7 @@ function Login() {
       </h1>
       <form
         onSubmit={formik.handleSubmit}
-        style={{ width: "50%", paddingTop: "35px" }}
+        style={{ width: "100%", paddingTop: "35px" }}
         className="m-auto"
       >
         <div className="form-group text-light input-icons">
@@ -106,7 +106,7 @@ function Login() {
           <button
             className="btn d-flex justify-content-center text-light"
             type="submit"
-            style={{ width: "50%", backgroundColor: "grey" }}
+            style={{ width: "100%", backgroundColor: "grey" }}
           >
             Login
           </button>
