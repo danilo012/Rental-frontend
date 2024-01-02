@@ -121,8 +121,10 @@ function Login() {
           </p>
         </div>
         <div className="text-center">
-          <h5 style={{ color: "lightgreen" }}>Use your Credentials</h5>
-          <span style={{ color: "yellow" }}>Be our Rental partner and earn passive income</span>            
+          <h5 style={{ color: "lightgreen" }}>Demo Credentials</h5>
+          <span style={{ color: "yellow" }}>Email: user@gmail.com</span>
+          <br></br>
+          <span style={{ color: "yellow" }}>Password: user@123</span>
         </div>
       </form>
     </div>
