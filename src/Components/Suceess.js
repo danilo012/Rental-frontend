@@ -15,8 +15,9 @@ function Success(){
             <button className='btn btn-outline-success text-light'>Continue For Renting</button>
             </Link>
         </div>
-
-
+</>
+}, 
+function Success(){
   // Store context inside the context variable
   let context = useContext(rentContext);
 
@@ -70,7 +71,6 @@ function Success(){
             return (
               <>
                 <div>
-
-export default Success;
-              </>
+</>
 }
+export default Success;
