@@ -16,10 +16,6 @@ function Success(){
             </Link>
         </div>
 
-        
-    </>
-}
-function Cart() {
 
   // Store context inside the context variable
   let context = useContext(rentContext);
