@@ -15,11 +15,6 @@ function Success(){
             <button className='btn btn-outline-success text-light'>Continue For Renting</button>
             </Link>
         </div>
-    <div className="mt-5">
-            <div className="text-center" style={{fontSize:"20px"}}>Total Pay : {cartPrice}</div>
-            <Link to="/placeorder" style={{textDecoration:"none"}}>        
-            </Link>
-          </div>
 
         
     </>
