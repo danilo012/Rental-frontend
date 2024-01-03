@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 
-function Success() {
+function Cart() {
 
   // Store context inside the context variable
   let context = useContext(rentContext);
@@ -113,4 +113,4 @@ function Success() {
   );
 }
 
-export default Success;
+export default Cart;
