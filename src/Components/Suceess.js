@@ -15,6 +15,13 @@ function Success(){
             <button className='btn btn-outline-success text-light'>Continue For Renting</button>
             </Link>
         </div>
+    </>
+}
+function Success(){
+    // useParams for get id from url
+    let {id} = useParams();
+
+    return <>
     <div className="mt-5">
             <div className="text-center" style={{fontSize:"20px"}}>Total Pay : {cartPrice}</div>
             <Link to="/placeorder" style={{textDecoration:"none"}}>        
