@@ -442,10 +442,10 @@ function Dashboard() {
 
   let products = [
     {
-      label: "R2E-800 RENTAL WEBSITE",
+      label: "R2E800",
     },
     {
-      label: "COMING SOON",
+      label: "COMINGSOON",
     },
   ];
 
@@ -455,10 +455,10 @@ function Dashboard() {
 
   // Write a function for navigate to selected page
   const handleSubmit = () => {
-    if (selectedOptions.label === "R2E-800 RENTAL WEBSITE") {
-      navigate("/R2E-800 RENTAL WEBSITE");
-    } else if (selectedOptions.label === "COMING SOON") {
-      navigate("/COMING SOON");
+    if (selectedOptions.label === "R2E800") {
+      navigate("/R2E800");
+    } else if (selectedOptions.label === "COMINGSOON") {
+      navigate("/COMINGSOON");
     }
   };
 
