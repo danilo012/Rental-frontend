@@ -22,9 +22,9 @@ function PlaceOrder() {
     // if res is present then condition will be true
     if (res) {
       // store order id inside the context
-      context.cartPrice;
+      context.cartValue; = res.data.small_id;
       context.orderID = res.data.small_id;
-      navigate("/success/" + context.orderID + context.cartPrice);
+      navigate("/success/" + context.orderID + context.cartValue);
     }
   };
 
