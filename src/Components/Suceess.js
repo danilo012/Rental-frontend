@@ -5,6 +5,8 @@ import {rentContext} from '../App';
 function Success(){
     // useParams for get id from url
     let {id} = useParams();
+   // useParams for get id from url
+    let {cartPrice} = useParams();
 
     return <>
         <div>
