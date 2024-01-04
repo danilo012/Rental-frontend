@@ -442,19 +442,10 @@ function Dashboard() {
 
   let products = [
     {
-      label: "Camera",
+      label: "R2E-800 RENTAL WEBSITE",
     },
     {
-      label: "EV Bike",
-    },
-    {
-      label: "Bicycle",
-    },
-    {
-      label: "Tripad",
-    },
-    {
-      label: "Atomos Shogun Monitor",
+      label: "COMING SOON",
     },
   ];
 
@@ -464,16 +455,10 @@ function Dashboard() {
 
   // Write a function for navigate to selected page
   const handleSubmit = () => {
-    if (selectedOptions.label === "Camera") {
-      navigate("/camera");
-    } else if (selectedOptions.label === "EV Bike") {
-      navigate("/ev-bike");
-    } else if (selectedOptions.label === "Bicycle") {
-      navigate("/bicycle");
-    } else if (selectedOptions.label === "Tripad") {
-      navigate("/tripad");
-    } else if (selectedOptions.label === "Atomos Shogun Monitor") {
-      navigate("/atmos-shougn-monitor");
+    if (selectedOptions.label === "R2E-800 RENTAL WEBSITE") {
+      navigate("/R2E-800 RENTAL WEBSITE");
+    } else if (selectedOptions.label === "COMING SOON") {
+      navigate("/COMING SOON");
     }
   };
 
