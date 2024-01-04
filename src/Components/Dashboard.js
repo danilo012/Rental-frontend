@@ -445,7 +445,7 @@ function Dashboard() {
       label: "R2E800",
     },
     {
-      label: "COMINGSOON",
+      label: "R2E800",
     },
   ];
 
@@ -457,7 +457,7 @@ function Dashboard() {
   const handleSubmit = () => {
     if (selectedOptions.label === "R2E800") {
       navigate("/R2E800");
-    } else if (selectedOptions.label === "COMINGSOON") {
+    } else if (selectedOptions.label === "R2E800") {
       navigate("/R2E800");
     }
   };
