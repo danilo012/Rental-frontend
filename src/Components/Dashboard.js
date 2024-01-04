@@ -442,7 +442,7 @@ function Dashboard() {
 
   let products = [
     {
-      label: "R2E800",
+      label: "Rentalweb",
     },
   ];
 
@@ -452,8 +452,8 @@ function Dashboard() {
 
   // Write a function for navigate to selected page
   const handleSubmit = () => {
-    if (selectedOptions.label === "R2E800") {
-      navigate("/R2E800");
+    if (selectedOptions.label === "Rentalweb") {
+      navigate("/Rentalweb");
     }
   };
 
