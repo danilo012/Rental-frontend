@@ -444,9 +444,6 @@ function Dashboard() {
     {
       label: "R2E800",
     },
-    {
-      label: "R2E800",
-    },
   ];
 
   // Declare State to Set SelectedOptions
@@ -456,8 +453,6 @@ function Dashboard() {
   // Write a function for navigate to selected page
   const handleSubmit = () => {
     if (selectedOptions.label === "R2E800") {
-      navigate("/R2E800");
-    } else if (selectedOptions.label === "R2E800") {
       navigate("/R2E800");
     }
   };
