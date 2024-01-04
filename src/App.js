@@ -11,7 +11,7 @@ import Signup from "../src/Components/Signup";
 import Placeorder from '../src/Components/PlaceOrder'
 import Success from "../src/Components/Suceess";
 import Help from '../src/Components/Help'
-import Camera from "../src/Pages/Camera";
+import Rentalweb from "../src/Pages/Rentalweb";
 import Evbike from "../src/Pages/EvBike";
 import Bicycle from "../src/Pages/Bicycle";
 import Tripad from "../src/Pages/Tripad";
@@ -51,7 +51,7 @@ function App() {
             <Route path="/placeorder" element={<Placeorder/>}/>
             <Route path="/success/:id" element={<Success/>}/>
             <Route path="/help" element={<Help/>}></Route>
-            <Route path="/camera" element={<Camera />} />
+            <Route path="/Rentalweb" element={<Rentalweb />} />
             <Route path="/ev-bike" element={<Evbike />} />
             <Route path="/bicycle" element={<Bicycle />} />
             <Route path="/tripad" element={<Tripad />} />
