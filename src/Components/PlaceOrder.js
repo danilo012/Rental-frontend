@@ -91,7 +91,7 @@ function PlaceOrder() {
                 id="mobile"
                 name="mobile"
                 type="text"
-                placeholder="10-digit Number"
+                placeholder="11-digit Number"
                 onBlur={formik.handleBlur}
                 onChange={formik.handleChange}
                 value={formik.values.mobile}
