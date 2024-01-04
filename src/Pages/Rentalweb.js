@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { rentContext } from "../App";
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
-function R2E800() {
+function Rentalweb() {
   let data = [
     {
       img: "https://cs1.socpanel.com/cs1/project_images/KuS0V0SI8euhIGOUiUgXgrNLokhKPAl80sWr9Ldw.jpg",
@@ -60,4 +60,4 @@ function R2E800() {
   );
 }
 
-export default R2E800;
+export default Rentalweb;
