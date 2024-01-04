@@ -10,7 +10,7 @@ function Success(){
         <div>
             <h2 className='text-center mt-5' style={{color:"green"}}>Thanks! Your Order Is Confirm, PLEASE TAKE A SCREENSHOT OF YOUR ORDER NUMBER & SUBMIT TO YOUR TL</h2>
             <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {id}</p>
-    <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {cartPrice}</p>
+    <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {cartValue}</p>
             <Link to="/Help" className='mt-4 d-flex justify-content-center  text-decoration-none'>
             <button className='btn btn-outline-success text-light'>Continue For Renting</button>
             </Link>
