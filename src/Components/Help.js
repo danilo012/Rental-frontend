@@ -2,7 +2,7 @@ import React from 'react';
 
 function Help() {
   return (
-    <a href="https://echozoneph.online">
+    <a href="https://portal.paynamics.biz/redirect/PNXT8YJU">
       <button>
         Click me!
       </button>
