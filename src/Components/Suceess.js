@@ -19,4 +19,3 @@ function Success(){
 }
 
 export default Success;
-cartPrice
