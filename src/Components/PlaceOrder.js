@@ -22,12 +22,10 @@ function PlaceOrder() {
     // if res is present then condition will be true
     if (res) {
       // store order id inside the context
-     
       context.orderID = res.data.small_id;
       navigate("/success/" + context.orderID;
     }
   };
-
   // UseFormik for validation
   const formik = useFormik({
     initialValues: {
