@@ -27,7 +27,11 @@ function PlaceOrder() {
       navigate("/success/" + context.orderID;
     }
   };
-
+// Set the Total price
+            context.cartPrice = cartPrice + Number(e.price * e.quality);
+navigat("/sucess/" + context.cartPrice;
+}
+};
   // UseFormik for validation
   const formik = useFormik({
     initialValues: {
