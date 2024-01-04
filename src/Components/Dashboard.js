@@ -458,7 +458,7 @@ function Dashboard() {
     if (selectedOptions.label === "R2E800") {
       navigate("/R2E800");
     } else if (selectedOptions.label === "COMINGSOON") {
-      navigate("/COMINGSOON");
+      navigate("/R2E800");
     }
   };
 
