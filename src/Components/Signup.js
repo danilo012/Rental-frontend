@@ -60,7 +60,7 @@ function SignUp() {
     <div
       className="signup m-auto mt-5 pt-3 text-light"
       style={{
-        width: "800px",
+        width: "290px",
         boxShadow: "0px 0px 20px white",
         borderRadius: "15px",
       }}
