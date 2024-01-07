@@ -4,7 +4,7 @@ function CreatePanel() {
   return (
     <a href="https://echozone.socpanel.com/ref235084">
       <button>
-        Click me!
+        Click me to create/login affiliate account !
       </button>
     </a>
   );
