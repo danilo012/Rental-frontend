@@ -15,6 +15,38 @@ function Success(){
             <button className='btn btn-outline-success text-light'>Continue For Renting</button>
             </Link>
         </div>
+    <div className="App" > 
+
+            <div> 
+
+                <h2 style={{ color: 'green' }}> 
+
+                    
+
+                </h2> 
+
+                <h2> 
+
+                     
+
+                </h2> 
+
+                <iframe width="560"
+
+                        height="315"
+
+                        src= 
+
+"https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I"
+
+                        title="RENTAL FEE" > 
+
+                </iframe> 
+
+            </div> 
+
+        </div> 
+
     </>
 }
 
