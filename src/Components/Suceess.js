@@ -10,13 +10,9 @@ function Success() {
                 </h2> 
                 <h2> 
                     Here
-                </h2> 
-                <iframe width="100%"
-                        height="600"
-                        src= 
-"https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I"
-                        title="GeeksforGeeks" > 
-                </iframe> 
+                </h2>
+                      
+       <iframe src="https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="100%" allowfullscreen></iframe>
             </div> 
         </div> 
 )} 
