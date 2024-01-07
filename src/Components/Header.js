@@ -31,7 +31,7 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav><Link to="/dashboard" className="bg-dark ml-2 mr-2 mt-2 text-decoration-none" style={{color:"grey"}}>Home</Link></Nav>
-            <Nav><Link to="/help" className="bg-dark ml-2 mr-2 mt-2 text-decoration-none" style={{color:"grey"}}>Help</Link></Nav>
+            <Nav><Link to="/CreatePanel" className="bg-dark ml-2 mr-2 mt-2 text-decoration-none" style={{color:"grey"}}>Panel</Link></Nav>
             <Nav>
               <Link to="/cart" className="bg-dark ml-2 mr-2 mt-2 text-decoration-none" style={{color:"grey"}}>
               <ShoppingCartIcon />
