@@ -10,7 +10,7 @@ import Login from "../src/Components/Login";
 import Signup from "../src/Components/Signup";
 import Placeorder from '../src/Components/PlaceOrder'
 import Success from "../src/Components/Suceess";
-import Help from '../src/Components/Help'
+import CreatePanel from '../src/Components/CreatePanel'
 import Rentalweb from "../src/Pages/Rentalweb";
 import Evbike from "../src/Pages/EvBike";
 import Bicycle from "../src/Pages/Bicycle";
@@ -50,7 +50,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/placeorder" element={<Placeorder/>}/>
             <Route path="/success/:id" element={<Success/>}/>
-            <Route path="/help" element={<Help/>}></Route>
+            <Route path="/CreatePanel" element={<CreatePanel/>}></Route>
             <Route path="/Rentalweb" element={<Rentalweb />} />
             <Route path="/ev-bike" element={<Evbike />} />
             <Route path="/bicycle" element={<Bicycle />} />
