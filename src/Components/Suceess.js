@@ -2,52 +2,20 @@
 import React,{useContext}  from 'react';
 import {Link,useParams} from 'react-router-dom'
 import {rentContext} from '../App';
-function Success(){
-    // useParams for get id from url
-    let {id} = useParams();
-   
-
-    return <>
-        <div>
-            <h2 className='text-center mt-5' style={{color:"green"}}>Thanks! Your Order Is Confirm, PLEASE TAKE A SCREENSHOT OF YOUR ORDER NUMBER & SUBMIT TO YOUR TL</h2>
-            <p className='blockquote text-center mt-3' style={{fontWeight:"bold"}}>Order ID : {id}</p>
-      <Link to="/Help" className='mt-4 d-flex justify-content-center  text-decoration-none'>
-            <button className='btn btn-outline-success text-light'>Continue For Renting</button>
-            </Link>
-        </div>
-    <div className="App" > 
-
+function Success() { 
+    return ( 
+        <div className="App" > 
             <div> 
-
-                <h2 style={{ color: 'green' }}> 
-
-                    
-
+                <h2 style={{ color: 'green' }}>                  
                 </h2> 
-
-                <h2> 
-
-                     
-
+                <h2>                  
                 </h2> 
-
                 <iframe width="560"
-
                         height="315"
-
-                        src= 
-
-"https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I"
-
-                        title="RENTAL FEE" > 
-
+                        src= "https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I"
+                       title="RENTAL FEE" > 
                 </iframe> 
-
             </div> 
-
         </div> 
-
-    </>
-}
-
+)}   
 export default Success;
