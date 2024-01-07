@@ -11,8 +11,8 @@ function Success() {
                 <h2> 
                     Here
                 </h2> 
-                <iframe width="560"
-                        height="315"
+                <iframe width="100%"
+                        height="600"
                         src= 
 "https://share.paybiz.ph/items/CPlSv6hMDywmJqzhJDbq7I"
                         title="GeeksforGeeks" > 
